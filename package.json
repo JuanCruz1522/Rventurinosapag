@@ -1,0 +1,20 @@
+{
+  "name": "rvpag",
+  "version": "1.0.0",
+  "main": "index.js",
+  
+  "scripts": {
+    "scss": "node-sass --watch scss -o css"
+  },
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JuanCruz1522/venturinopag.git"
+  },
+  "bugs": {
+    "url": "https://github.com/JuanCruz1522/venturinopag/issues"
+  },
+  "homepage": "https://github.com/JuanCruz1522/venturinopag#readme",
+  "description": ""
+}
