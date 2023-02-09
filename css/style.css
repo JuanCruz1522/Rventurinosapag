@@ -29,6 +29,14 @@
   background-size: cover;
 }
 
+/*area*/
+#conteiner__area {
+  background-image: url(./../img/carrusel/fondosok.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
 body {
   overflow-x: hidden;
 }
@@ -55,6 +63,10 @@ body {
 /*barra de navegacion*/
 .barracol {
   background-color: darkolivegreen;
+}
+
+.posnav {
+  overflow: hidden;
 }
 
 #conteiner__cont .poscont {
@@ -107,9 +119,12 @@ main div img {
 
 #conteiner_contwo {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
+  margin-bottom: 40px;
+  padding: 15px;
+  margin-top: 30px;
 }
 
 .conteiner {
@@ -133,6 +148,19 @@ div.galeria:hover {
 div.galeria img {
   width: 300px;
   height: 200px;
+}
+
+/*area*/
+.posarea {
+  margin-bottom: 50px;
+  padding: 30px;
+}
+
+/*nos*/
+.posnos {
+  margin-bottom: 50px;
+  padding: 15px;
+  display: flex;
 }
 
 section {
@@ -171,16 +199,49 @@ section div.desc {
   margin-bottom: 40px;
 }
 
+/*areas*/
+.titarea {
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+/*nos*/
+.titnos {
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+/*con*/
+.titcon {
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+/*suc*/
+.ubisuc {
+  margin-bottom: 40px;
+  margin-top: 20px;
+}
+
 div.inilog {
   display: inline;
   justify-content: center;
   padding: 50px;
   margin: 10px;
+  flex-wrap: wrap;
 }
 
 div.inilog img {
   width: 300;
   height: 200;
+}
+
+/*suc*/
+.titsuc {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
 }
 
 /*# sourceMappingURL=style.css.map */
