@@ -12,8 +12,23 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <!-- css -->
     <link rel="stylesheet" href="../css/style.css">
+    <!--animacion-->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <!--aos-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!--icon -->
     <link rel="stylesheet" href="https://kit.fontawesome.com/6fa697ca83.css" crossorigin="anonymous">
+    <!--tipografia-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Yrsa:ital,wght@1,400;1,500&display=swap" rel="stylesheet">
+       <!--tip titulo-->
+       <link rel="preconnect" href="https://fonts.googleapis.com">
+       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+       <link href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap" rel="stylesheet">
+
     
   
     <title>Sucursales</title>
@@ -21,7 +36,7 @@
 <body id="conteiner__suc">
   <header  class="posnav" >
 
-    <nav class="navbar navbar-expand-lg barracol"  >
+    <nav class="navbar navbar-expand-lg barracol letranav"  >
         <div class="container-fluid">
           <a class="navbar-brand">RICARDO VENTURNICO S.A.</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -65,14 +80,14 @@
     </nav>
   <header >
 
-  <article class="titsuc">
+  <article class="titsuc letraini">
     <h1>¿Donde nos encontramos?</h1>
   </article>   
   <main>
       <div><iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d1703036.892535728!2d-61.746255000000005!3d-33.521043!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sus!4v1674946791253!5m2!1ses!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
   </main>
   <section class="ubisuc">
-              <div class="card" style="width: 18rem;">
+              <div class="card" style="width: 18rem;"data-aos="flip-up">
                 <div class="card-body">
                   <h5 class="card-title">Isla Verde-Casa Central</h5>
                   <h6 class="card-subtitle mb-2 text-muted">Ruta Prov. N° 11 C.P.: 2661 Córdoba, Argentina</h6>
@@ -86,7 +101,7 @@
                 </div>
               </div>
 
-              <div class="card" style="width: 18rem;">
+              <div class="card" style="width: 18rem;"data-aos="flip-down">
                 <div class="card-body">
                   <h5 class="card-title">Arias</h5>
                   <h6 class="card-subtitle mb-2 text-muted">Av. San Martín y Ruta Nac. Nº 8 C.P.: 2624 Córdoba, Argentina</h6>
@@ -100,7 +115,7 @@
                 </div>
               </div>
 
-              <div class="card" style="width: 18rem;">
+              <div class="card" style="width: 18rem;"data-aos="flip-up">
                 <div class="card-body">
                   <h5 class="card-title">Venado Tuerto</h5>
                   <h6 class="card-subtitle mb-2 text-muted">Ruta Nacional Nº 8 KM 362 C.P.: 2600 Santa Fe, Argentina</h6>
@@ -114,7 +129,7 @@
                 </div>
               </div>
 
-              <div class="card" style="width: 18rem;">
+              <div class="card" style="width: 18rem;"data-aos="flip-down">
                 <div class="card-body">
                   <h5 class="card-title">Casilda</h5>
                   <h6 class="card-subtitle mb-2 text-muted">Bv. Colón 2078 (Ruta Nac. Nº 33)C.P.: 2170  Santa Fe, Argentina</h6>
@@ -129,7 +144,7 @@
               </div>
             
   </section>
-  <footer class="lookfoot">
+  <footer class="lookfoot letranav">
   
  
   
@@ -209,6 +224,11 @@
   
 <script src="https://kit.fontawesome.com/6fa697ca83.js" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+<!--aos-->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 
 </body>
 </html>

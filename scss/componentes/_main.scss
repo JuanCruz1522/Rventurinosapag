@@ -84,6 +84,9 @@ div.galeria img {
   height: 200px;
 }
 
+
+
+
 /*area*/
 .posarea{
   margin-bottom: 50px;
@@ -96,4 +99,14 @@ div.galeria img {
   padding: 15px;
   display: flex;
  
+}
+
+.letraini h1{
+  font-family: 'Mochiy Pop One', sans-serif;
+  font-size: nth($size, 5);
+}
+
+.letraini p{
+  font-family: 'Pattaya', sans-serif;
+  font-size: nth($size , 3 );
 }

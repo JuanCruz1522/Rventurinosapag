@@ -69,6 +69,11 @@ body {
   overflow: hidden;
 }
 
+.letranav {
+  font-family: "Yrsa", serif;
+  font-size: 20px;
+}
+
 #conteiner__cont .poscont {
   display: inline;
   justify-content: center;
@@ -161,6 +166,16 @@ div.galeria img {
   margin-bottom: 50px;
   padding: 15px;
   display: flex;
+}
+
+.letraini h1 {
+  font-family: "Mochiy Pop One", sans-serif;
+  font-size: 50px;
+}
+
+.letraini p {
+  font-family: "Pattaya", sans-serif;
+  font-size: 30px;
 }
 
 section {
