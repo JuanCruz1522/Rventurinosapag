@@ -59,6 +59,7 @@ main div p{
   margin-bottom: 40px;
   padding: 15px;
   margin-top: 30px;
+ 
 }
 
 .conteiner{
@@ -115,4 +116,18 @@ div.galeria img {
 /*contacto*/
 .colorbot{
   background-color: darkolivegreen;
+}
+
+
+
+/*form*/
+
+.form button {
+  padding: 0.5em 1em;
+  border: none;
+  background:darkolivegreen;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
 }

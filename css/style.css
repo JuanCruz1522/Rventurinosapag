@@ -183,6 +183,16 @@ div.galeria img {
   background-color: darkolivegreen;
 }
 
+/*form*/
+.form button {
+  padding: 0.5em 1em;
+  border: none;
+  background: darkolivegreen;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 section {
   display: flex;
   flex-wrap: wrap;
