@@ -7,7 +7,7 @@
 }
 
 #conteiner__nos {
-  background-image: url(./../img/carrusel/fodo.jpg);
+  background-image: url(./../img/carrusel/fondocont.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -178,6 +178,11 @@ div.galeria img {
   font-size: 30px;
 }
 
+/*contacto*/
+.colorbot {
+  background-color: darkolivegreen;
+}
+
 section {
   display: flex;
   flex-wrap: wrap;
@@ -222,8 +227,8 @@ section div.desc {
 
 /*nos*/
 .titnos {
-  margin-top: 30px;
-  margin-bottom: 20px;
+  margin-top: 15px;
+  margin-bottom: 5px;
 }
 
 /*con*/
@@ -257,6 +262,24 @@ div.inilog img {
   margin-bottom: 30px;
   display: flex;
   justify-content: center;
+}
+
+/*nos*/
+.carruselnos img {
+  width: 300px;
+  height: 600px;
+  padding-left: 100px;
+  padding-right: 100px;
+  margin-top: 0px;
+}
+
+/*contcarru*/
+.carruselcont img {
+  width: 300px;
+  height: 600px;
+  margin-top: 0px;
+  padding-left: 100px;
+  padding-right: 100px;
 }
 
 /*# sourceMappingURL=style.css.map */
