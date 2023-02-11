@@ -55,7 +55,7 @@ body {
 /*Letra parrafo index*/
 .letraini {
   font-size: 20px;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-family: "Mochiy Pop One", sans-serif;
   font-style: italic;
   font-weight: bold;
 }
@@ -171,11 +171,17 @@ div.galeria img {
 .letraini h1 {
   font-family: "Mochiy Pop One", sans-serif;
   font-size: 50px;
+  background-color: darkolivegreen;
+  border-radius: 10px;
+  border: solid;
 }
 
 .letraini p {
   font-family: "Pattaya", sans-serif;
   font-size: 30px;
+  background-color: darkolivegreen;
+  border-radius: 15px;
+  border: solid;
 }
 
 /*contacto*/
@@ -191,6 +197,15 @@ div.galeria img {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.titform h2 {
+  font-size: 60px;
+  font-family: "Mochiy Pop One", sans-serif;
+  background-color: darkolivegreen;
+  border-radius: 10px;
+  border: solid;
+  margin-top: 20px;
 }
 
 section {
@@ -278,8 +293,8 @@ div.inilog img {
 .carruselnos img {
   width: 300px;
   height: 600px;
-  padding-left: 100px;
-  padding-right: 100px;
+  padding-left: 50px;
+  padding-right: 50px;
   margin-top: 0px;
 }
 
@@ -288,8 +303,8 @@ div.inilog img {
   width: 300px;
   height: 600px;
   margin-top: 0px;
-  padding-left: 100px;
-  padding-right: 100px;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 /*# sourceMappingURL=style.css.map */

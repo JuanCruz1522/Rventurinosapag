@@ -103,13 +103,20 @@ div.galeria img {
 }
 
 .letraini h1{
-  font-family: 'Mochiy Pop One', sans-serif;
+  font-family: $tip-one;
   font-size: nth($size, 5);
+  background-color: $bag;
+  border-radius: 10px;
+  border: solid;
 }
 
 .letraini p{
   font-family: 'Pattaya', sans-serif;
   font-size: nth($size , 3 );
+  background-color: darkolivegreen;
+  border-radius: 15px;
+  border: solid;
+  
 }
 
 
@@ -130,4 +137,14 @@ div.galeria img {
   justify-content: center;
   align-items: center;
 
+}
+
+
+.titform h2{
+  font-size: nth($size ,6);
+  font-family: 'Mochiy Pop One', sans-serif;
+  background-color: darkolivegreen;
+  border-radius: 10px;
+  border: solid;
+  margin-top: 20px;
 }
