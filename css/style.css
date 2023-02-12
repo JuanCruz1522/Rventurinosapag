@@ -212,6 +212,10 @@ div.galeria img {
   font-family: "Mochiy Pop One", sans-serif;
 }
 
+.letrasuc {
+  font-family: "Saira Condensed", sans-serif;
+}
+
 section {
   display: flex;
   flex-wrap: wrap;
@@ -270,6 +274,10 @@ section div.desc {
 .ubisuc {
   margin-bottom: 40px;
   margin-top: 20px;
+}
+
+.letratip {
+  font-family: "Saira Condensed", sans-serif;
 }
 
 div.inilog {
