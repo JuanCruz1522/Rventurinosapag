@@ -103,7 +103,7 @@ div.galeria img {
 }
 
 .letraini h1{
-  font-family: $tip-one;
+  font-family: $tip-four;
   font-size: nth($size, 5);
   background-color: $bag;
   border-radius: 10px;
@@ -111,7 +111,7 @@ div.galeria img {
 }
 
 .letraini p{
-  font-family: 'Pattaya', sans-serif;
+  font-family: $tip-three;
   font-size: nth($size , 3 );
   background-color: $bag;
   border-radius: 15px;
