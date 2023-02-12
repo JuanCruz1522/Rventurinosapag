@@ -208,6 +208,10 @@ div.galeria img {
   margin-top: 20px;
 }
 
+.letraar p {
+  font-family: "Mochiy Pop One", sans-serif;
+}
+
 section {
   display: flex;
   flex-wrap: wrap;
@@ -293,8 +297,8 @@ div.inilog img {
 .carruselnos img {
   width: 300px;
   height: 600px;
-  padding-left: 50px;
-  padding-right: 50px;
+  padding-left: 0px;
+  padding-right: 0px;
   margin-top: 0px;
 }
 
