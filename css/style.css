@@ -216,6 +216,10 @@ div.galeria img {
   font-family: "Saira Condensed", sans-serif;
 }
 
+.letraar h5 {
+  font-family: "Archivo Narrow", sans-serif;
+}
+
 section {
   display: flex;
   flex-wrap: wrap;
@@ -317,6 +321,10 @@ div.inilog img {
   margin-top: 0px;
   padding-left: 50px;
   padding-right: 50px;
+}
+
+.letraimg {
+  font-family: "Archivo Narrow", sans-serif;
 }
 
 /*# sourceMappingURL=style.css.map */

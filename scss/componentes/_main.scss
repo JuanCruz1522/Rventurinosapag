@@ -142,7 +142,7 @@ div.galeria img {
 
 .titform h2{
   font-size: nth($size ,6);
-  font-family: 'Mochiy Pop One', sans-serif;
+  font-family:$tip-one;
   background-color: $bag;
   border-radius: 10px;
   border: solid;
@@ -150,10 +150,15 @@ div.galeria img {
 }
 
 .letraar p{
-  font-family: 'Mochiy Pop One', sans-serif;
+  font-family:$tip-one 
   
 }
 
 .letrasuc{
-  font-family: 'Saira Condensed', sans-serif;
+  font-family: $tip-six;
+}
+
+
+.letraar h5{
+  font-family: $tip-five;
 }
